@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Sans-Serif';
+}
+.canvasContainer{
+    background-color:#eff4f7;
+}
+#planTrajectoires{
+    margin: 1.5625%;
+}
+.progression{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 35%, rgba(255,78,0,1) 100%);
+    line-height: 30px;
+    padding: 0 0 0 1.5625%;
+    border-radius: 3px;
+}
+
+.resultWrapper{
+    max-width: 800px;
+}
+.resultat{
+    border-collapse: collapse;
+    border: solid 3px #999;
+    width: 100%;
+    margin-top: 20px;
+}
+.resultat th{
+    padding:1.5625%;
+    background-color: #999; 
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+}
+.resultat td{
+    padding:1.5625%;
+    border: solid 2px #aaa;
+}
